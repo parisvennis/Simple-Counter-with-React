@@ -12,12 +12,28 @@ export function Home(props) {
 	counter += 1;
 
 	function randomColor() {
-        let colors = ["pink", "blue", "white", "red", "green", "yellow", "purple"];
+		let colors = [
+			"pink",
+			"blue",
+			"white",
+			"red",
+			"green",
+			"yellow",
+			"purple",
+			"light blue",
+			"hot pink",
+			"light green",
+			"light purple",
+			"grey"
+		];
 		let index = Math.floor(Math.random() * colors.length);
-		let toReturn = colors[index];
+		let colOutput = colors[index];
+		console.log(colOutput);
+		console.log(colors);
+
 		colors.splice(index, 1);
 		console.log(colors);
-		return toReturn;
+		return colOutput;
 	}
 
 	return (
