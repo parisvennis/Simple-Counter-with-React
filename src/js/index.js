@@ -23,12 +23,12 @@ var myTimer = () => {
 
 	ReactDOM.render(
 		<Home
-			char1={seconds.charAt(0)}
-			char2={seconds.charAt(1)}
-			char3={seconds.charAt(2)}
-			char4={seconds.charAt(3)}
-			char5={seconds.charAt(4)}
-			char6={seconds.charAt(5)}
+			num1={seconds.charAt(0)}
+			num2={seconds.charAt(1)}
+			num3={seconds.charAt(2)}
+			num4={seconds.charAt(3)}
+			num5={seconds.charAt(4)}
+			num6={seconds.charAt(5)}
 		/>,
 		document.querySelector("#app")
 	);
